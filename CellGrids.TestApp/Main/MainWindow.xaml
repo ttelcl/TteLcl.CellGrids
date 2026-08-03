@@ -26,7 +26,10 @@
                 <TextBlock Text="" Width="15"/>
             </StatusBarItem>
             <StatusBarItem HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" Padding="1,0">
-                <Border BorderThickness="1" Padding="2,1" BorderBrush="{DynamicResource MahApps.Brushes.AccentBase}">
+                <Border
+                    BorderThickness="1"
+                    Padding="2,1"
+                    BorderBrush="{DynamicResource MahApps.Brushes.AccentBase}">
                     <TextBlock Text="{Binding StatusMessage}"/>
                 </Border>
             </StatusBarItem>
@@ -35,7 +38,8 @@
             <!-- Space for control center -->
             <Border
                 BorderThickness="1"
-                BorderBrush="{DynamicResource MahApps.Brushes.AccentBase}">
+                BorderBrush="{DynamicResource MahApps.Brushes.AccentBase}"
+                Background="{DynamicResource MahApps.Brushes.Accent4}">
                 <!-- TBD -->
             </Border>
         </Grid>

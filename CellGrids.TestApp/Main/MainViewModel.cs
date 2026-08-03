@@ -45,6 +45,6 @@ public class MainViewModel: ObservableObject
       }
     }
   }
-  private string _statusMessage = "";
+  private string _statusMessage = "CellGrids demo application (work in progress)";
 
 }
