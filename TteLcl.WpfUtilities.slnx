@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/GuiApps/" />
+  <Folder Name="/Libraries/" />
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+</Solution>
