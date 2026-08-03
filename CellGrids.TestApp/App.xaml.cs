@@ -35,6 +35,9 @@ public partial class App : Application
     Trace.TraceInformation($"App.App_Startup done");
   }
 
+  /// <summary>
+  /// The main view model for the app
+  /// </summary>
   public MainViewModel? MainModel { get; private set; }
 
   private void ProcessUnhandledException(

@@ -11,8 +11,15 @@ using CommunityToolkit.Mvvm.Input;
 
 namespace CellGrids.TestApp.Main;
 
+/// <summary>
+/// The main application viewmodel
+/// </summary>
 public class MainViewModel: ObservableObject
 {
+  /// <summary>
+  /// Create a new <see cref="MainViewModel"/>. Called as part of the bootstrapping
+  /// process in App.xaml.cs. This demo application uses the "ViewModel first" approach.
+  /// </summary>
   public MainViewModel()
   {
     ExitCommand = new RelayCommand(() => {
@@ -21,8 +28,15 @@ public class MainViewModel: ObservableObject
     });
   }
 
+  /// <summary>
+  /// Command to bind to the "File|Exit" menu. Closes the main window and
+  /// thus the application.
+  /// </summary>
   public ICommand ExitCommand { get; }
 
+  /// <summary>
+  /// Get or set the message shown in the status bar
+  /// </summary>
   public string StatusMessage {
     get => _statusMessage;
     set {

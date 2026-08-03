@@ -21,6 +21,11 @@ namespace CellGrids.TestApp.Main;
 /// </summary>
 public partial class MainWindow: MetroWindow
 {
+  /// <summary>
+  /// Create the <see cref="MainWindow"/>.
+  /// In this application this is called manually by the bootstrapping code in
+  /// App.xaml.cs (not by the WPF framework as 'Startup URI').
+  /// </summary>
   public MainWindow()
   {
     InitializeComponent();
