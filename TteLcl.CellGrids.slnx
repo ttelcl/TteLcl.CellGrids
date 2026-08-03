@@ -1,5 +1,7 @@
 <Solution>
-  <Folder Name="/GuiApps/" />
+  <Folder Name="/GuiApps/">
+    <Project Path="CellGrids.TestApp/CellGrids.TestApp.csproj" Id="f5d82155-4483-44d3-8985-51cbc92328d5" />
+  </Folder>
   <Folder Name="/Libraries/" />
   <Folder Name="/Solution Items/">
     <File Path=".gitignore" />
